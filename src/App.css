@@ -9,6 +9,15 @@ a:visited {
 	color: #426696;
 }
 
+button {
+	border: none;
+	color: #426696;
+	font-weight: 600;
+	background: none;
+	font-size: 100%;
+	outline: none;
+}
+
 h1 {
 	color: #426696;
 	font-weight: 600;
@@ -42,7 +51,7 @@ main {
 .glass {
 	background: white;
 	min-height: 50vh;
-	width: 70%;
+	width: 80%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4));
@@ -51,6 +60,30 @@ main {
 	backdrop-filter: blur(2rem);
 	display: flex;
 }
+
+.dashboard {
+	flex: 0.5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+	border-radius: 2rem;
+}
+
+.about {
+	width: 60%;
+	height: 100%;
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+	flex: 1;
+}
+
 .circle1 {
 	background: white;
 	background: linear-gradient(to right top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.15));
@@ -87,17 +120,6 @@ img {
 .cards img {
 	width: 6rem;
 	height: 6rem;
-}
-
-.dashboard {
-	flex: 1;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-evenly;
-	text-align: center;
-	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
-	border-radius: 2rem;
 }
 
 .link {
@@ -176,7 +198,7 @@ img {
 	font-weight: 600;
 	width: 100%;
 	display: flex;
-	justify-content: end;
+	justify-content: flex-end;
 }
 
 .status {
@@ -196,14 +218,14 @@ img {
 	margin: 1rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: start;
+	justify-content: flex-start;
 }
 
 .aboutMe h1 {
 	margin: 0rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: start;
+	justify-content: flex-start;
 }
 
 .scrollbar {
