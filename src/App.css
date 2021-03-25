@@ -1,38 +1,284 @@
-.App {
-  text-align: center;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a,
+a:visited {
+	text-decoration: none;
+	color: #426696;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+	color: #426696;
+	font-weight: 600;
+	font-size: 3rem;
+	opacity: 0.8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2,
+p {
+	color: #658ec6;
+	font-weight: 600;
+	opacity: 0.9;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+	color: #426696;
+	font-weight: 600;
+	opacity: 0.8;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+	font-family: "Poppins", sans-serif;
+	min-height: 100vh;
+	min-width: 100vh;
+	background: linear-gradient(to right top, #65dfc5, #5d9ce4);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.glass {
+	background: white;
+	min-height: 50vh;
+	width: 70%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4));
+	border-radius: 2rem;
+	z-index: 2;
+	backdrop-filter: blur(2rem);
+	display: flex;
 }
+.circle1 {
+	background: white;
+	background: linear-gradient(to right top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.15));
+	height: 25rem;
+	width: 25rem;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.circle2 {
+	background: white;
+	background: linear-gradient(to left bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.15));
+	height: 20rem;
+	width: 20rem;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.circle1 {
+	top: 5%;
+	right: 3%;
+}
+.circle2 {
+	bottom: 5%;
+	left: 5%;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+}
+
+.cards img {
+	width: 6rem;
+	height: 6rem;
+}
+
+.dashboard {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+	border-radius: 2rem;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	height: 60px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.pictureOfMe {
+	width: 80px;
+	height: 80px;
+	margin-top: 15px;
+	border-radius: 50%;
+}
+
+.link h2,
+.linkProjects h2,
+.linkAboutMe h2,
+.linkLinkedIn h2,
+.linkGithub h2,
+.linkContactMe h2 {
+	padding: 0rem 1rem;
+	align-items: center;
+}
+
+.projects {
+	flex: 2;
+}
+
+.theme-dot {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+#blue-mode {
+	background: linear-gradient(to right top, #65dfc9, #5d9ce4);
+	cursor: pointer;
+}
+
+#pink-mode {
+	background: linear-gradient(to right top, #f393f7fd, #8a41eb);
+	cursor: pointer;
+}
+
+#red-mode {
+	background: linear-gradient(to right top, #ffc0a2fd, #f50505);
+	cursor: pointer;
+}
+
+#green-mode {
+	background: linear-gradient(to right top, #7af36f, #01a029);
+	cursor: pointer;
+}
+
+#theme-options-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.pro {
+	background: linear-gradient(to right top, #65dfc9, #5d9ce4);
+	border-radius: 2rem;
+	color: white;
+	padding: 1rem;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.pro h2 {
+	color: white;
+	font-weight: 600;
+	width: 100%;
+	display: flex;
+	justify-content: end;
+}
+
+.status {
+	margin-bottom: 3rem;
+}
+
+.status input {
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+	border: none;
+	width: 50%;
+	padding: 0.5rem;
+	border-radius: 2rem;
+	outline: none;
+}
+
+.projects {
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+
+.aboutMe h1 {
+	margin: 0rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+
+.scrollbar {
+	height: 30rem;
+	overflow: hidden;
+	overflow-y: scroll;
+	font-size: 1.1rem;
+}
+
+.scrollbarProject {
+	height: 400px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+#contact-form {
+	display: block;
+	max-width: 600px;
+	margin: 0 auto;
+	border: 1px solid;
+	padding: 15px;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+
+#contact-form label {
+	line-height: 2.7em;
+}
+
+#contact-form textarea {
+	min-height: 100px;
+	font-size: 14px;
+}
+
+.input-field {
+	font-family: "Poppins", sans-serif;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-radius: px;
+	border: 1px solid;
+	font-size: 14px;
+	background-color: white;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+}
+
+#submit-btn {
+	margin-top: 10px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+
+	background-color: white;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+	border: none;
+}
+
+/* Bugs to fix
+ Profile pic ocasionally becomes warped for a split second when navigating
+ Horizontal scaling issues on other devices
+ How can I zoom in on profile pic?
+ Giant icons flash on web page when saving css code
+
+ Fixed bugs (I think)
+ Vertical scaling issues on other devices
+ Icons aren't uniform size
+ Links get forced out of box when compressed
+ Small box at the bottom left corner doesn't shrink accordingly
+ Small box touches border when shrunk
+ Projects icon missing corners
+ Contact me icon slightly cut off
+
+ Ideas to implement
+ Highlight selected link(with a border)
+ Include projects
+ Utilise search bar on projects
+*/
