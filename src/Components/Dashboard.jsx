@@ -105,18 +105,17 @@ export default function Dashboard() {
 			<main className={backgroundThemeSelect()}>
 				<section className="glass">
 					<div className="dashboard">
-						<div className="user">
-							<div>
-								<img src={me} alt="pictureOfMe" className="pictureOfMe" />
-							</div>
-							<h3>William Cook</h3>
-							<p>Trainee Software Engineer</p>
+						<div>
+							<img src={me} alt="pictureOfMe" className="pictureOfMe" />
 						</div>
+						<h3>William Cook</h3>
+						<p>Trainee Software Engineer</p>
 						<div className="links">
 							<div className="link">
 								<img src={hair} alt="Glasses icon" />
 								<h2>
 									<button
+										className="aboutBtn"
 										onClick={() => {
 											aboutClick();
 										}}
@@ -129,6 +128,7 @@ export default function Dashboard() {
 								<img src={computer} alt="Computer icon" />
 								<h2>
 									<button
+										className="projectBtn"
 										onClick={() => {
 											projectsClick();
 										}}
@@ -157,6 +157,7 @@ export default function Dashboard() {
 								<img src={email} alt="Email icon" />
 								<h2>
 									<button
+										className="contactBtn"
 										onClick={() => {
 											contactClick();
 										}}
@@ -207,8 +208,8 @@ export default function Dashboard() {
 					{pageSelect()}
 				</section>
 			</main>
-			<div class="circle1"></div>
-			<div class="circle2"></div>
+			<div className="circle1"></div>
+			<div className="circle2"></div>
 		</>
 	);
 }
