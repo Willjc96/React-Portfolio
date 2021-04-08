@@ -20,7 +20,10 @@ export default function About() {
 				<br />
 				<p>
 					Due to a previous lack of formal experience in software engineering, I realised that the best way to add to what I had already learnt
-					through Youtube tutorials, was to get some proper training from a coding bootcamp, which lead me to Northcoders.
+					through Youtube tutorials, was to get some proper training from a coding bootcamp, which lead me to Northcoders. Northcoders is a 14 week
+					software development bootcamp that teaches all the skills needed for a career in tech. Throughout my time on the course I not only learnt a
+					tonne about JavaScript, HTML and CSS but I also learnt about the benefits of Test Driven Development, Pair Programming and other well
+					utilised techniques in the software workplace.
 				</p>
 				<br />
 				<p>

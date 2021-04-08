@@ -48,6 +48,11 @@ main {
 	justify-content: center;
 }
 
+/* .about p {
+	font-weight: normal;
+	font-size: 15pt;
+} */
+
 .blue {
 	background: linear-gradient(to right top, #65dfc5, #5d9ce4);
 }
@@ -56,7 +61,9 @@ main {
 	background: linear-gradient(to right top, #65dfc5, #5d9ce4);
 	border-radius: 2rem;
 	color: white;
-	padding: 1rem;
+	padding: 15%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-bottom: 15px;
@@ -64,6 +71,7 @@ main {
 
 .proBlue h2 {
 	color: white;
+	font-size: 110%;
 	font-weight: 600;
 	width: 100%;
 	display: flex;
@@ -77,13 +85,16 @@ main {
 	background: linear-gradient(to right top, #ffc0a2fd, #f50505);
 	border-radius: 2rem;
 	color: white;
-	padding: 1rem;
+	padding: 15%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-bottom: 15px;
 }
 .proRed h2 {
 	color: white;
+	font-size: 110%;
 	font-weight: 600;
 	width: 100%;
 	display: flex;
@@ -97,13 +108,16 @@ main {
 	background: linear-gradient(to right top, #7af36f, #01a029);
 	border-radius: 2rem;
 	color: white;
-	padding: 1rem;
+	padding: 15%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-bottom: 15px;
 }
 .proGreen h2 {
 	color: white;
+	font-size: 110%;
 	font-weight: 600;
 	width: 100%;
 	display: flex;
@@ -117,13 +131,16 @@ main {
 	background: linear-gradient(to right top, #f393f7fd, #8a41eb);
 	border-radius: 2rem;
 	color: white;
-	padding: 1rem;
+	padding: 15%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-bottom: 15px;
 }
 .proPink h2 {
 	color: white;
+	font-size: 110%;
 	font-weight: 600;
 	width: 100%;
 	display: flex;
@@ -166,9 +183,9 @@ main {
 	padding: 2%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: left;
 	justify-content: space-evenly;
-	text-align: center;
+	text-align: left;
 	flex: 1;
 }
 
@@ -226,8 +243,8 @@ main {
 }
 
 img {
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	object-fit: cover;
 }
 
@@ -279,9 +296,9 @@ img {
 }
 
 .pictureOfMe {
-	width: 80px;
-	height: 80px;
-	margin-top: 15px;
+	width: 6rem;
+	height: 6rem;
+	margin-top: 1rem;
 	border-radius: 50%;
 }
 
@@ -335,7 +352,6 @@ img {
 	background: linear-gradient(to right top, #65dfc9, #5d9ce4);
 	border-radius: 2rem;
 	color: white;
-	padding: 1rem;
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-bottom: 15px;
@@ -362,10 +378,15 @@ img {
 } */
 
 .about h1 {
+	font-size: 250%;
 	margin: 0rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+}
+
+.scrollbar p {
+	font-size: 100%;
 }
 
 .scrollbar {
@@ -398,7 +419,7 @@ img {
 	border: 1px solid;
 	padding: 15px;
 	border-radius: 5px;
-	margin-bottom: 50px;
+	margin-bottom: 5px;
 }
 
 #contact-form label {
