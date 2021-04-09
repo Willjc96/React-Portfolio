@@ -22,8 +22,8 @@ export default function Projects() {
 								<img src={CARD} className="proj4-img" alt="Pic of C-AR-D project" />
 							</ExternalLink>
 							<div className="description">
-								My final project built during my time on the Northcoders bootcamp.{<br></br>} Skills and Technologies: {<br></br>} - React {<br></br>}{" "}
-								- React Native {<br></br>} - Expo {<br></br>} - A-Frame {<br></br>} - Group Working {<br></br>} - Trello
+								Test My final project built during my time on the Northcoders bootcamp.{<br></br>} Skills and Technologies: {<br></br>} - React{" "}
+								{<br></br>} - React Native {<br></br>} - Expo {<br></br>} - A-Frame {<br></br>} - Group Working {<br></br>} - Trello
 							</div>
 						</div>
 					</div>
