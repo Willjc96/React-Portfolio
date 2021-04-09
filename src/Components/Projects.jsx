@@ -21,17 +21,21 @@ export default function Projects() {
 							<ExternalLink href="https://www.youtube.com/watch?v=Ypr8xSdlLGg" target="_blank">
 								<img src={CARD} className="proj4-img" alt="Pic of C-AR-D project" />
 							</ExternalLink>
-							<div className="description"></div>
+							<div className="description">
+								My final project during my time on the Northcoders bootcamp.{<br></br>} Skills and Technologies: {<br></br>} - React {<br></br>} -
+								React Native {<br></br>} - Expo {<br></br>} - A-Frame {<br></br>} - Group Working {<br></br>} - Trello
+							</div>
 						</div>
 					</div>
 					<div className="card">
 						<h2>Portfolio Webpage</h2>
 						<div className="project-info">
-							<ExternalLink href="https://willjc96.github.io/" target="_blank">
+							<ExternalLink href="https://willjc96.github.io/React-Portfolio/">
 								<img src={Portfolio} className="proj2-img" alt="Pic of Portfolio project" />
 							</ExternalLink>
 							<div className="description">
-								The thing you're looking at right now! Check out the code to see how it works {<br></br>}- React.js {<br></br>}- CSS
+								The thing you're looking at right now! Check out my Github to see how it works.{<br></br>} Skills and Technologies: {<br></br>} -
+								React {<br></br>} - CSS
 							</div>
 						</div>
 					</div>
@@ -42,7 +46,8 @@ export default function Projects() {
 								<img src={Sudoku} className="proj1-img" alt="Pic of Sudoku project" />
 							</ExternalLink>
 							<div className="description">
-								A sudoku game made using React {<br></br>}- Paired programming {<br></br>}- React.js {<br></br>} https://sudoku-masters.netlify.app/
+								A sudoku game made using React {<br></br>} Skills and Technologies: {<br></br>} - React {<br></br>} - React hooks {<br></br>} - Styled
+								Components {<br></br>} - Paired programming
 							</div>
 						</div>
 					</div>
@@ -52,7 +57,10 @@ export default function Projects() {
 							<ExternalLink href="https://wills-nc-news.netlify.app/" target="_blank">
 								<img src={News} className="proj3-img" alt="Pic of NC News project" />
 							</ExternalLink>
-							<div className="description"></div>
+							<div className="description">
+								A news article website which makes asynchronous API calls to a server. {<br></br>} Skills and Technologies: {<br></br>} - React
+								{<br></br>} - Reach Router {<br></br>} - CSS
+							</div>
 						</div>
 					</div>
 					<div className="card">
