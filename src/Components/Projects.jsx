@@ -11,7 +11,7 @@ export default function Projects() {
 		<div className="projects">
 			<div className="status">
 				<h1>Projects</h1>
-				<input type="text" className="search" placeholder="Search..." />
+				{/* <input type="text" className="search" placeholder="Search..." /> */}
 			</div>
 			<div className="scrollbarProject">
 				<div className="cards">
