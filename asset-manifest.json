@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.d34dc40c.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.8f777b38.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.8f777b38.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.dcdd21ab.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.dcdd21ab.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.040140a2.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.040140a2.js.map",
     "static/js/2.28a6c154.chunk.js": "/React-Portfolio/static/js/2.28a6c154.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/Hair.e78aef5f.png": "/React-Portfolio/static/media/Hair.e78aef5f.png",
     "static/media/LinkedIn_logo.7650ae5a.png": "/React-Portfolio/static/media/LinkedIn_logo.7650ae5a.png",
     "static/media/News.9f2f2d6d.png": "/React-Portfolio/static/media/News.9f2f2d6d.png",
+    "static/media/NewsBE.ac8225e8.png": "/React-Portfolio/static/media/NewsBE.ac8225e8.png",
     "static/media/Portfolio.73c14c5d.png": "/React-Portfolio/static/media/Portfolio.73c14c5d.png",
     "static/media/Sudoku.d277b64d.png": "/React-Portfolio/static/media/Sudoku.d277b64d.png",
     "static/media/me.ab865f4e.jpg": "/React-Portfolio/static/media/me.ab865f4e.jpg"
@@ -27,6 +28,6 @@
     "static/js/runtime-main.040140a2.js",
     "static/js/2.28a6c154.chunk.js",
     "static/css/main.d34dc40c.chunk.css",
-    "static/js/main.8f777b38.chunk.js"
+    "static/js/main.dcdd21ab.chunk.js"
   ]
 }
