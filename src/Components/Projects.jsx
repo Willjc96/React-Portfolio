@@ -3,6 +3,7 @@ import me from "../images/me.jpg";
 import Sudoku from "../images/Sudoku.png";
 import Portfolio from "../images/Portfolio.png";
 import News from "../images/News.png";
+import NewsBE from "../images/NewsBE.png";
 import CARD from "../images/CARD.png";
 import { ExternalLink } from "react-external-link";
 
@@ -46,8 +47,8 @@ export default function Projects() {
 								<img src={Sudoku} className="proj1-img" alt="Pic of Sudoku project" />
 							</ExternalLink>
 							<div className="description">
-								A sudoku game made using React {<br></br>} Skills and Technologies: {<br></br>} - React {<br></br>} - React hooks {<br></br>} - Styled
-								Components {<br></br>} - Paired programming
+								A sudoku game made using React. {<br></br>} Skills and Technologies: {<br></br>} - React {<br></br>} - React hooks {<br></br>} -
+								Styled Components {<br></br>} - Paired programming
 							</div>
 						</div>
 					</div>
@@ -64,14 +65,19 @@ export default function Projects() {
 						</div>
 					</div>
 					<div className="card">
-						<h2>Project Coming Soon!</h2>
+						<h2>NC News API</h2>
 						<div className="project-info">
-							<img src={me} className="proj5-img" alt="Pic of project 5" />
-							<div className="description"></div>
+							<ExternalLink href="https://wills-nc-news-api.herokuapp.com/api" target="_blank">
+								<img src={NewsBE} className="proj5-img" alt="Pic of NC News Back End project" />
+							</ExternalLink>
+							<div className="description">
+								An API that uses a PSQL database for retrieving data by using specific endpoints. {<br></br>} Skills and Technologies: {<br></br>} -
+								PostgreSQL {<br></br>} - Knex {<br></br>} - Express {<br></br>} - Jest
+							</div>
 						</div>
 					</div>
 					<div className="card">
-						<h2>Project Coming Soon!</h2>
+						<h2>More Projects Coming Soon!</h2>
 						<div className="project-info">
 							<img src={me} className="proj6-img" alt="Pic of project 6" />
 							<div className="description"></div>
