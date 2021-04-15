@@ -72,7 +72,7 @@ export default function Projects() {
 							</ExternalLink>
 							<div className="description">
 								An API that uses a PSQL database for retrieving data by using specific endpoints. {<br></br>} Skills and Technologies: {<br></br>} -
-								PostgreSQL {<br></br>} - Knex {<br></br>} - Express {<br></br>} - Jest
+								PostgreSQL {<br></br>} - Knex {<br></br>} - Express {<br></br>} - Jest {<br></br>} - Supertest
 							</div>
 						</div>
 					</div>
